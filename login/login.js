@@ -2,7 +2,7 @@ const wrapper = document.querySelector(".wrapper"),
   signupHeader = document.querySelector(".signup header"),
   loginHeader = document.querySelector(".loginin header");
 
-const registration_form = document.querySelector(".sign_up");
+const  = document.querySelector(".sign_up");
 const full_nameInput = document.querySelector("#full_name");
 const emailInput = document.querySelector("#email");
 const passwordInput = document.querySelector("#password");
@@ -36,7 +36,7 @@ passwordInput.addEventListener("input", (e) => {
 });
 
 // ---------------------SIGN UP--------------------------//
-registration_form.addEventListener("submit", (e) => {
+.addEventListener("submit", (e) => {
   e.preventDefault();
   signup();
   alert(1);
