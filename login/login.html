@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login & Registration Form</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="/login/login.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="container">
+        <input type="checkbox" id="check" />
+        <div class="login form">
+          <header>Login</header>
+          <form action="#" class="sign_in">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              required
+              id="login_email"
+            />
+            <input
+              type="password"
+              placeholder="Enter your password "
+              required
+              id="login_password"
+            />
+            <a href="#">Forgot password?</a>
+            <button type="submit" id="loginbtn" onsubmit="return(checkform())">
+              Login
+            </button>
+          </form>
+          <div class="signup">
+            <span class="signup"
+              >Don't have an account?
+              <label for="check">Signup</label>
+            </span>
+          </div>
+        </div>
+
+        <div class="registration form">
+          <header>Signup</header>
+          <form action="#" class="sign_up">
+            <input
+              type="text"
+              placeholder="Enter your name"
+              required
+              id="full_name"
+            />
+            <input
+              type="text"
+              placeholder="Enter your email"
+              required
+              id="email"
+            />
+            <input
+              type="password"
+              placeholder="Create a password"
+              required
+              id="password"
+            />
+            <input type="submit" value="Signup" />
+          </form>
+          <div class="signup">
+            <span class="signup"
+              >Already have an account?
+              <label for="check">Login</label>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
